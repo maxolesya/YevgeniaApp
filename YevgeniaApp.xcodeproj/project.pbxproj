@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76E24E4A1E51BA170058672F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E491E51BA170058672F /* AppDelegate.swift */; };
+		76E24E4C1E51BA170058672F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E4B1E51BA170058672F /* ViewController.swift */; };
+		76E24E4F1E51BA170058672F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E4D1E51BA170058672F /* Main.storyboard */; };
+		76E24E511E51BA170058672F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E501E51BA170058672F /* Assets.xcassets */; };
+		76E24E541E51BA170058672F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E521E51BA170058672F /* LaunchScreen.storyboard */; };
+		76E24E5F1E51BA170058672F /* YevgeniaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E5E1E51BA170058672F /* YevgeniaAppTests.swift */; };
+		76E24E6A1E51BA170058672F /* YevgeniaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E691E51BA170058672F /* YevgeniaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76E24E5B1E51BA170058672F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E24E3E1E51BA170058672F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E24E451E51BA170058672F;
+			remoteInfo = YevgeniaApp;
+		};
+		76E24E661E51BA170058672F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E24E3E1E51BA170058672F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E24E451E51BA170058672F;
+			remoteInfo = YevgeniaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76E24E461E51BA170058672F /* YevgeniaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YevgeniaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E24E491E51BA170058672F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76E24E4B1E51BA170058672F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76E24E4E1E51BA170058672F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76E24E501E51BA170058672F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76E24E531E51BA170058672F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76E24E551E51BA170058672F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E24E5A1E51BA170058672F /* YevgeniaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YevgeniaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E24E5E1E51BA170058672F /* YevgeniaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YevgeniaAppTests.swift; sourceTree = "<group>"; };
+		76E24E601E51BA170058672F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E24E651E51BA170058672F /* YevgeniaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YevgeniaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E24E691E51BA170058672F /* YevgeniaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YevgeniaAppUITests.swift; sourceTree = "<group>"; };
+		76E24E6B1E51BA170058672F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E24E431E51BA170058672F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E24E571E51BA170058672F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E24E621E51BA170058672F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76E24E3D1E51BA170058672F = {
+			isa = PBXGroup;
+			children = (
+				76E24E481E51BA170058672F /* YevgeniaApp */,
+				76E24E5D1E51BA170058672F /* YevgeniaAppTests */,
+				76E24E681E51BA170058672F /* YevgeniaAppUITests */,
+				76E24E471E51BA170058672F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76E24E471E51BA170058672F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E24E461E51BA170058672F /* YevgeniaApp.app */,
+				76E24E5A1E51BA170058672F /* YevgeniaAppTests.xctest */,
+				76E24E651E51BA170058672F /* YevgeniaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76E24E481E51BA170058672F /* YevgeniaApp */ = {
+			isa = PBXGroup;
+			children = (
+				76E24E491E51BA170058672F /* AppDelegate.swift */,
+				76E24E4B1E51BA170058672F /* ViewController.swift */,
+				76E24E4D1E51BA170058672F /* Main.storyboard */,
+				76E24E501E51BA170058672F /* Assets.xcassets */,
+				76E24E521E51BA170058672F /* LaunchScreen.storyboard */,
+				76E24E551E51BA170058672F /* Info.plist */,
+			);
+			path = YevgeniaApp;
+			sourceTree = "<group>";
+		};
+		76E24E5D1E51BA170058672F /* YevgeniaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				76E24E5E1E51BA170058672F /* YevgeniaAppTests.swift */,
+				76E24E601E51BA170058672F /* Info.plist */,
+			);
+			path = YevgeniaAppTests;
+			sourceTree = "<group>";
+		};
+		76E24E681E51BA170058672F /* YevgeniaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76E24E691E51BA170058672F /* YevgeniaAppUITests.swift */,
+				76E24E6B1E51BA170058672F /* Info.plist */,
+			);
+			path = YevgeniaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76E24E451E51BA170058672F /* YevgeniaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E24E6E1E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaApp" */;
+			buildPhases = (
+				76E24E421E51BA170058672F /* Sources */,
+				76E24E431E51BA170058672F /* Frameworks */,
+				76E24E441E51BA170058672F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YevgeniaApp;
+			productName = YevgeniaApp;
+			productReference = 76E24E461E51BA170058672F /* YevgeniaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76E24E591E51BA170058672F /* YevgeniaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E24E711E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaAppTests" */;
+			buildPhases = (
+				76E24E561E51BA170058672F /* Sources */,
+				76E24E571E51BA170058672F /* Frameworks */,
+				76E24E581E51BA170058672F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E24E5C1E51BA170058672F /* PBXTargetDependency */,
+			);
+			name = YevgeniaAppTests;
+			productName = YevgeniaAppTests;
+			productReference = 76E24E5A1E51BA170058672F /* YevgeniaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76E24E641E51BA170058672F /* YevgeniaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E24E741E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaAppUITests" */;
+			buildPhases = (
+				76E24E611E51BA170058672F /* Sources */,
+				76E24E621E51BA170058672F /* Frameworks */,
+				76E24E631E51BA170058672F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E24E671E51BA170058672F /* PBXTargetDependency */,
+			);
+			name = YevgeniaAppUITests;
+			productName = YevgeniaAppUITests;
+			productReference = 76E24E651E51BA170058672F /* YevgeniaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E24E3E1E51BA170058672F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HSEProject;
+				TargetAttributes = {
+					76E24E451E51BA170058672F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					76E24E591E51BA170058672F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76E24E451E51BA170058672F;
+					};
+					76E24E641E51BA170058672F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76E24E451E51BA170058672F;
+					};
+				};
+			};
+			buildConfigurationList = 76E24E411E51BA170058672F /* Build configuration list for PBXProject "YevgeniaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76E24E3D1E51BA170058672F;
+			productRefGroup = 76E24E471E51BA170058672F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E24E451E51BA170058672F /* YevgeniaApp */,
+				76E24E591E51BA170058672F /* YevgeniaAppTests */,
+				76E24E641E51BA170058672F /* YevgeniaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76E24E441E51BA170058672F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E24E541E51BA170058672F /* LaunchScreen.storyboard in Resources */,
+				76E24E511E51BA170058672F /* Assets.xcassets in Resources */,
+				76E24E4F1E51BA170058672F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E24E581E51BA170058672F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E24E631E51BA170058672F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E24E421E51BA170058672F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E24E4C1E51BA170058672F /* ViewController.swift in Sources */,
+				76E24E4A1E51BA170058672F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E24E561E51BA170058672F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E24E5F1E51BA170058672F /* YevgeniaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E24E611E51BA170058672F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E24E6A1E51BA170058672F /* YevgeniaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76E24E5C1E51BA170058672F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E24E451E51BA170058672F /* YevgeniaApp */;
+			targetProxy = 76E24E5B1E51BA170058672F /* PBXContainerItemProxy */;
+		};
+		76E24E671E51BA170058672F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E24E451E51BA170058672F /* YevgeniaApp */;
+			targetProxy = 76E24E661E51BA170058672F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76E24E4D1E51BA170058672F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E24E4E1E51BA170058672F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76E24E521E51BA170058672F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E24E531E51BA170058672F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76E24E6C1E51BA170058672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76E24E6D1E51BA170058672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76E24E6F1E51BA170058672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YevgeniaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76E24E701E51BA170058672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YevgeniaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		76E24E721E51BA170058672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YevgeniaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YevgeniaApp.app/YevgeniaApp";
+			};
+			name = Debug;
+		};
+		76E24E731E51BA170058672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YevgeniaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YevgeniaApp.app/YevgeniaApp";
+			};
+			name = Release;
+		};
+		76E24E751E51BA170058672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YevgeniaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YevgeniaApp;
+			};
+			name = Debug;
+		};
+		76E24E761E51BA170058672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YevgeniaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YevgeniaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76E24E411E51BA170058672F /* Build configuration list for PBXProject "YevgeniaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E24E6C1E51BA170058672F /* Debug */,
+				76E24E6D1E51BA170058672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E24E6E1E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E24E6F1E51BA170058672F /* Debug */,
+				76E24E701E51BA170058672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76E24E711E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E24E721E51BA170058672F /* Debug */,
+				76E24E731E51BA170058672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76E24E741E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E24E751E51BA170058672F /* Debug */,
+				76E24E761E51BA170058672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E24E3E1E51BA170058672F /* Project object */;
+}
