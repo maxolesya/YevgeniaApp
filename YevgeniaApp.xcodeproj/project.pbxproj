@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7680D9541E60459200B2AAEA /* i-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7680D9531E60459200B2AAEA /* i-2.jpeg */; };
 		76E24E4A1E51BA170058672F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E491E51BA170058672F /* AppDelegate.swift */; };
 		76E24E4C1E51BA170058672F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E4B1E51BA170058672F /* ViewController.swift */; };
 		76E24E4F1E51BA170058672F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E4D1E51BA170058672F /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		76E24E801E5485A90058672F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E7F1E5485A90058672F /* Default-568h@2x.png */; };
 		76E24E821E548C5F0058672F /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E811E548C5F0058672F /* ScheduleViewController.swift */; };
 		76E24E861E54955A0058672F /* TemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E851E54955A0058672F /* TemplateCell.swift */; };
-		76E24E891E549C400058672F /* i-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E881E549C400058672F /* i-2.jpeg */; };
 		76E24E8B1E54ABC70058672F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E8A1E54ABC70058672F /* DetailViewController.swift */; };
 		76E24E8D1E565BBB0058672F /* JSONStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E8C1E565BBB0058672F /* JSONStuff.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7680D9531E60459200B2AAEA /* i-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i-2.jpeg"; sourceTree = SOURCE_ROOT; };
 		76E24E461E51BA170058672F /* YevgeniaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YevgeniaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E24E491E51BA170058672F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76E24E4B1E51BA170058672F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		76E24E7F1E5485A90058672F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76E24E811E548C5F0058672F /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		76E24E851E54955A0058672F /* TemplateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateCell.swift; sourceTree = "<group>"; };
-		76E24E881E549C400058672F /* i-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "i-2.jpeg"; path = "../../WeatherApp/WeatherApp/i-2.jpeg"; sourceTree = "<group>"; };
 		76E24E8A1E54ABC70058672F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		76E24E8C1E565BBB0058672F /* JSONStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONStuff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,7 +149,7 @@
 		76E24E871E549C290058672F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				76E24E881E549C400058672F /* i-2.jpeg */,
+				7680D9531E60459200B2AAEA /* i-2.jpeg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E24E891E549C400058672F /* i-2.jpeg in Resources */,
+				7680D9541E60459200B2AAEA /* i-2.jpeg in Resources */,
 				76E24E541E51BA170058672F /* LaunchScreen.storyboard in Resources */,
 				76E24E801E5485A90058672F /* Default-568h@2x.png in Resources */,
 				76E24E511E51BA170058672F /* Assets.xcassets in Resources */,
