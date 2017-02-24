@@ -14,6 +14,13 @@
 		76E24E541E51BA170058672F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E521E51BA170058672F /* LaunchScreen.storyboard */; };
 		76E24E5F1E51BA170058672F /* YevgeniaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E5E1E51BA170058672F /* YevgeniaAppTests.swift */; };
 		76E24E6A1E51BA170058672F /* YevgeniaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E691E51BA170058672F /* YevgeniaAppUITests.swift */; };
+		76E24E781E51BF610058672F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E771E51BF610058672F /* File.swift */; };
+		76E24E801E5485A90058672F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E7F1E5485A90058672F /* Default-568h@2x.png */; };
+		76E24E821E548C5F0058672F /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E811E548C5F0058672F /* ScheduleViewController.swift */; };
+		76E24E861E54955A0058672F /* TemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E851E54955A0058672F /* TemplateCell.swift */; };
+		76E24E891E549C400058672F /* i-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E881E549C400058672F /* i-2.jpeg */; };
+		76E24E8B1E54ABC70058672F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E8A1E54ABC70058672F /* DetailViewController.swift */; };
+		76E24E8D1E565BBB0058672F /* JSONStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E8C1E565BBB0058672F /* JSONStuff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		76E24E651E51BA170058672F /* YevgeniaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YevgeniaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E24E691E51BA170058672F /* YevgeniaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YevgeniaAppUITests.swift; sourceTree = "<group>"; };
 		76E24E6B1E51BA170058672F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E24E771E51BF610058672F /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		76E24E7F1E5485A90058672F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		76E24E811E548C5F0058672F /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		76E24E851E54955A0058672F /* TemplateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateCell.swift; sourceTree = "<group>"; };
+		76E24E881E549C400058672F /* i-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "i-2.jpeg"; path = "../../WeatherApp/WeatherApp/i-2.jpeg"; sourceTree = "<group>"; };
+		76E24E8A1E54ABC70058672F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		76E24E8C1E565BBB0058672F /* JSONStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONStuff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 		76E24E3D1E51BA170058672F = {
 			isa = PBXGroup;
 			children = (
+				76E24E7F1E5485A90058672F /* Default-568h@2x.png */,
 				76E24E481E51BA170058672F /* YevgeniaApp */,
 				76E24E5D1E51BA170058672F /* YevgeniaAppTests */,
 				76E24E681E51BA170058672F /* YevgeniaAppUITests */,
@@ -97,12 +112,18 @@
 		76E24E481E51BA170058672F /* YevgeniaApp */ = {
 			isa = PBXGroup;
 			children = (
+				76E24E871E549C290058672F /* Images */,
 				76E24E491E51BA170058672F /* AppDelegate.swift */,
 				76E24E4B1E51BA170058672F /* ViewController.swift */,
-				76E24E4D1E51BA170058672F /* Main.storyboard */,
 				76E24E501E51BA170058672F /* Assets.xcassets */,
 				76E24E521E51BA170058672F /* LaunchScreen.storyboard */,
 				76E24E551E51BA170058672F /* Info.plist */,
+				76E24E811E548C5F0058672F /* ScheduleViewController.swift */,
+				76E24E771E51BF610058672F /* File.swift */,
+				76E24E4D1E51BA170058672F /* Main.storyboard */,
+				76E24E851E54955A0058672F /* TemplateCell.swift */,
+				76E24E8A1E54ABC70058672F /* DetailViewController.swift */,
+				76E24E8C1E565BBB0058672F /* JSONStuff.swift */,
 			);
 			path = YevgeniaApp;
 			sourceTree = "<group>";
@@ -123,6 +144,14 @@
 				76E24E6B1E51BA170058672F /* Info.plist */,
 			);
 			path = YevgeniaAppUITests;
+			sourceTree = "<group>";
+		};
+		76E24E871E549C290058672F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76E24E881E549C400058672F /* i-2.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E24E891E549C400058672F /* i-2.jpeg in Resources */,
 				76E24E541E51BA170058672F /* LaunchScreen.storyboard in Resources */,
+				76E24E801E5485A90058672F /* Default-568h@2x.png in Resources */,
 				76E24E511E51BA170058672F /* Assets.xcassets in Resources */,
 				76E24E4F1E51BA170058672F /* Main.storyboard in Resources */,
 			);
@@ -260,7 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E24E4C1E51BA170058672F /* ViewController.swift in Sources */,
+				76E24E781E51BF610058672F /* File.swift in Sources */,
+				76E24E861E54955A0058672F /* TemplateCell.swift in Sources */,
+				76E24E8D1E565BBB0058672F /* JSONStuff.swift in Sources */,
+				76E24E8B1E54ABC70058672F /* DetailViewController.swift in Sources */,
 				76E24E4A1E51BA170058672F /* AppDelegate.swift in Sources */,
+				76E24E821E548C5F0058672F /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YevgeniaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YevgeniaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HSE.YevgeniaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +541,7 @@
 				76E24E701E51BA170058672F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76E24E711E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +550,7 @@
 				76E24E731E51BA170058672F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76E24E741E51BA170058672F /* Build configuration list for PBXNativeTarget "YevgeniaAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +559,7 @@
 				76E24E761E51BA170058672F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
