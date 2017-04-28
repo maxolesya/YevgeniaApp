@@ -1,22 +1,20 @@
 //
-//  TemplateCell.swift
+//  CustomCell.swift
 //  YevgeniaApp
 //
-//  Created by Олеся Максакова on 15.02.17.
+//  Created by Олеся Максакова on 17.04.17.
 //  Copyright © 2017 HSEProject. All rights reserved.
 //
 
 import UIKit
 
-class TemplateCell: UITableViewCell {
+class CustomCell: UITableViewCell {
 
-   
-    @IBOutlet var labelPlace: UILabel!
-    @IBOutlet var labelTime: UILabel!
-    @IBOutlet var labelTitle: UILabel!
-    @IBOutlet var labelType: UILabel!
-    @IBOutlet weak var photo: UIImageView!
-    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet var label_Place: UILabel!
+    @IBOutlet var label_time: UILabel!
+    @IBOutlet var label_Name: UILabel!
+    @IBOutlet var label_WorkshopName: UILabel!
+    @IBOutlet var imageViewPhoto: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -17,11 +17,13 @@ class DetailViewController : UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     var name = "";
     var desc = "";
+    var lectureId = "";
     var image = UIImage();
     var array1 = ["",""]
     
      override func viewDidLoad()
     {
+        print(name)
         labelName.text = name;
         labelDesc.text = desc;
         imageView.image = image

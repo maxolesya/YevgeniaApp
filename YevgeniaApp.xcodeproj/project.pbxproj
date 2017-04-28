@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760A6D481EAB671300235920 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760A6D471EAB671300235920 /* ButtonCell.swift */; };
+		760A6D4A1EABB1AF00235920 /* VotingAnswersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760A6D491EABB1AF00235920 /* VotingAnswersController.swift */; };
+		760A6D4C1EABB4F000235920 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760A6D4B1EABB4F000235920 /* Human.swift */; };
+		763BE9711EA750A0007A3750 /* VotingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763BE9701EA750A0007A3750 /* VotingController.swift */; };
+		767B16EF1EA4195B00590134 /* WorkShopsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B16EE1EA4195B00590134 /* WorkShopsController.swift */; };
+		767B16F11EA4830E00590134 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B16F01EA4830E00590134 /* CustomCell.swift */; };
 		7680D9541E60459200B2AAEA /* i-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7680D9531E60459200B2AAEA /* i-2.jpeg */; };
+		769B3E461EB1EA8C0026D28D /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B3E451EB1EA8C0026D28D /* RootPageViewController.swift */; };
 		76E24E4A1E51BA170058672F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E491E51BA170058672F /* AppDelegate.swift */; };
 		76E24E4C1E51BA170058672F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E24E4B1E51BA170058672F /* ViewController.swift */; };
 		76E24E4F1E51BA170058672F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E24E4D1E51BA170058672F /* Main.storyboard */; };
@@ -41,7 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		760A6D471EAB671300235920 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		760A6D491EABB1AF00235920 /* VotingAnswersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotingAnswersController.swift; sourceTree = "<group>"; };
+		760A6D4B1EABB4F000235920 /* Human.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		763BE9701EA750A0007A3750 /* VotingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotingController.swift; sourceTree = "<group>"; };
+		767B16EE1EA4195B00590134 /* WorkShopsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkShopsController.swift; path = ../WorkShopsController.swift; sourceTree = "<group>"; };
+		767B16F01EA4830E00590134 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		7680D9531E60459200B2AAEA /* i-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "i-2.jpeg"; sourceTree = SOURCE_ROOT; };
+		769B3E451EB1EA8C0026D28D /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		76E24E461E51BA170058672F /* YevgeniaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YevgeniaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E24E491E51BA170058672F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76E24E4B1E51BA170058672F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +126,7 @@
 		76E24E481E51BA170058672F /* YevgeniaApp */ = {
 			isa = PBXGroup;
 			children = (
+				767B16EE1EA4195B00590134 /* WorkShopsController.swift */,
 				76E24E871E549C290058672F /* Images */,
 				76E24E491E51BA170058672F /* AppDelegate.swift */,
 				76E24E4B1E51BA170058672F /* ViewController.swift */,
@@ -124,6 +139,12 @@
 				76E24E851E54955A0058672F /* TemplateCell.swift */,
 				76E24E8A1E54ABC70058672F /* DetailViewController.swift */,
 				76E24E8C1E565BBB0058672F /* JSONStuff.swift */,
+				767B16F01EA4830E00590134 /* CustomCell.swift */,
+				763BE9701EA750A0007A3750 /* VotingController.swift */,
+				760A6D471EAB671300235920 /* ButtonCell.swift */,
+				760A6D491EABB1AF00235920 /* VotingAnswersController.swift */,
+				760A6D4B1EABB4F000235920 /* Human.swift */,
+				769B3E451EB1EA8C0026D28D /* RootPageViewController.swift */,
 			);
 			path = YevgeniaApp;
 			sourceTree = "<group>";
@@ -290,12 +311,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767B16EF1EA4195B00590134 /* WorkShopsController.swift in Sources */,
 				76E24E4C1E51BA170058672F /* ViewController.swift in Sources */,
 				76E24E781E51BF610058672F /* File.swift in Sources */,
 				76E24E861E54955A0058672F /* TemplateCell.swift in Sources */,
+				767B16F11EA4830E00590134 /* CustomCell.swift in Sources */,
+				760A6D4C1EABB4F000235920 /* Human.swift in Sources */,
 				76E24E8D1E565BBB0058672F /* JSONStuff.swift in Sources */,
+				760A6D4A1EABB1AF00235920 /* VotingAnswersController.swift in Sources */,
 				76E24E8B1E54ABC70058672F /* DetailViewController.swift in Sources */,
 				76E24E4A1E51BA170058672F /* AppDelegate.swift in Sources */,
+				760A6D481EAB671300235920 /* ButtonCell.swift in Sources */,
+				769B3E461EB1EA8C0026D28D /* RootPageViewController.swift in Sources */,
+				763BE9711EA750A0007A3750 /* VotingController.swift in Sources */,
 				76E24E821E548C5F0058672F /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

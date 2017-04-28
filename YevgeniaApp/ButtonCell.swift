@@ -1,31 +1,33 @@
 //
-//  TemplateCell.swift
+//  ButtonCell.swift
 //  YevgeniaApp
 //
-//  Created by Олеся Максакова on 15.02.17.
+//  Created by Олеся Максакова on 22.04.17.
 //  Copyright © 2017 HSEProject. All rights reserved.
 //
 
 import UIKit
 
-class TemplateCell: UITableViewCell {
+class ButtonCell: UITableViewCell {
 
-   
-    @IBOutlet var labelPlace: UILabel!
-    @IBOutlet var labelTime: UILabel!
-    @IBOutlet var labelTitle: UILabel!
-    @IBOutlet var labelType: UILabel!
-    @IBOutlet weak var photo: UIImageView!
-    @IBOutlet weak var labelName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    @IBOutlet var labelQuestion: UILabel!
 
+    
+    @IBAction func button_Answer_Click(_ sender: Any) {
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        //button_ChosenAnswer.clipsToBounds = true;
+       // button_ChosenAnswer.layer.cornerRadius = 5;
 
         // Configure the view for the selected state
     }
+    
+   
 
 }
